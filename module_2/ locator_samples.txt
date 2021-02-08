@@ -1,0 +1,5 @@
+input#abcdone
+//input[@name='lotlio']
+input.third-line.flex-form
+//input[@my_custom_1='mycustomvladfour']
+//input[@class='flex-form address']
