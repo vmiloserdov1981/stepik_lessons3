@@ -13,7 +13,7 @@ def pytest_addoption(parser):
 
 @pytest.fixture(scope="function")
 def browser(request):
-    # В переменную user_language передается параметр из командной строки
+    #  В переменную user_language передается параметр из командной строки
     user_language = request.config.getoption('language')
 
     # Инициализируются опции браузера - используется класс Options и метод add_experimental_option
