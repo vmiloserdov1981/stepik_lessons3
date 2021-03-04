@@ -11,7 +11,7 @@ class TestProductPage:
         browser.get(link)
 
         # Пауза 5 сек после открытия страницы, для визуальной проверки языка открытой страницы
-        time.sleep(5)
+        # time.sleep(5)
 
         # Проверяем наличие кнопки добавления товара в корзину
         assert browser.find_element_by_css_selector("#add_to_basket_form > button")
