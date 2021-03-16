@@ -23,3 +23,13 @@ class ProductPage(BasePage):
         product['product_name'] = product_name
         product['product_price'] = product_price
         return product
+
+    # https://stepik.org/lesson/478334/step/5?unit=469293
+    def should_not_be_success_message(self):
+        assert self.is_not_element_present(*ProductPageLocators.ADDED_PRODUCT_TEXT), \
+            "Success message is presented, but should not be"
+
+    # https://stepik.org/lesson/478334/step/5?unit=469293
+    def should_be_disappeared(self):
+        assert self.is_disappeared(*ProductPageLocators.ADDED_PRODUCT_TEXT), \
+            "Success message is presented, but should not be"
