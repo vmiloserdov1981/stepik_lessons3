@@ -17,6 +17,6 @@ class TestMainPage:
         time.sleep(2)
 
         loginPage = LoginPage(browser, browser.current_url)
-        loginPage.should_be_login_url()
-        loginPage.should_be_login_form()
-        loginPage.should_be_register_form()
+        #Вызываю класс should_be_login_page для проверок url, страниц логина и регистрации
+        loginPage.should_be_login_page()
+
