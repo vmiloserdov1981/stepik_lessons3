@@ -12,6 +12,12 @@ class BasePage():
         self.url = url
         self.browser.implicitly_wait(timeout) # В конструктор BasePage добавим команду для неявного ожидания со значением по умолчанию в 10
 
+    site_url = "http://selenium1py.pythonanywhere.com/"
+
+    def go_to_basket_page(self):
+        link = self.browser.find_element(*BasePageLocators.GO_TO_BASKET_BTN)
+        link.click()
+
     def go_to_login_page(self):
         link = self.browser.find_element(*BasePageLocators.LOGIN_LINK)
         link.click()
