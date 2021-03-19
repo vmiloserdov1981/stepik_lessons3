@@ -1,7 +1,12 @@
 from .base_page import BasePage
 from .locators import LoginPageLocators
 
+
 class LoginPage(BasePage):
+    def __init__(self, browser):
+        self.page_url = "accounts/login"
+        super().__init__(browser, BasePage.site_url + "/" + self.page_url)
+
     def register_new_user(self, email, password):
         self.browser.find_element(*LoginPageLocators.REGISTER_EMAIL).send_keys(email)
         self.browser.find_element(*LoginPageLocators.REGISTER_PASS).send_keys(password)
@@ -16,7 +21,6 @@ class LoginPage(BasePage):
     def should_be_login_url(self):
         # реализуйте проверку на корректный url адрес
         assert LoginPageLocators.login_url in self.browser.current_url
-
 
     def should_be_login_form(self):
         # реализуйте проверку, что есть форма логина

@@ -2,8 +2,34 @@ from .base_page import BasePage
 from .locators import ProductPageLocators
 
 
-
 class ProductPage(BasePage):
+    def __init__(self, browser, item_url, timeout=10):
+        self.page_url = "catalogue"
+        super().__init__(browser, ProductPage.site_url + "/" + self.page_url + "/" + item_url, timeout)
+
+    def add_product_to_basket(self):
+        self.click(*ProductPageLocators.ADD_TO_BASKET_BTN)
+
+    def get_product_name(self):
+        return self.get_element_text(*ProductPageLocators.PRODUCT_NAME_TEXT)
+
+    def get_product_price(self):
+        return self.get_element_text(*ProductPageLocators.PRODUCT_PRICE_TEXT)
+
+    def check_basket_product_name_message(self, product_name):
+        self.check_success_alert_message(f"{product_name} has been added to your basket.")
+
+    def check_basket_total_price_message(self, product_price):
+        self.check_info_alert_message(f"Your basket total is now {product_price}")
+
+    def check_success_alert_message(self, message):
+        messages = self.get_elements_text(*ProductPageLocators.ADDED_PRODUCT_TEXT)
+        assert message in messages, f"Success message '{message}' is not presented"
+
+    def check_info_alert_message(self, message):
+        messages = self.get_elements_text(*ProductPageLocators.INFO_MESSAGE)
+        assert message in messages, f"Info message '{message}' is not presented"
+
     def add_to_basket(self):
         add_to_basket_btn = self.browser.find_element(*ProductPageLocators.ADD_TO_BASKET_BTN)
         add_to_basket_btn.click()
@@ -34,4 +60,3 @@ class ProductPage(BasePage):
     def should_be_disappeared(self):
         assert self.is_disappeared(*ProductPageLocators.ADDED_PRODUCT_TEXT), \
             "Success message is presented, but should not be"
-

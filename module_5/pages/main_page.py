@@ -4,6 +4,7 @@ from selenium.webdriver.common.by import By
 
 
 class MainPage(BasePage):
-    #заглушка, так как все методы реализованы в base_page.py
-    def __init__(self, *args, **kwargs):
-        super(MainPage, self).__init__(*args, **kwargs)
+
+    def __init__(self, browser):
+        self.page_url = ""
+        super(self).__init__(browser, MainPage.site_url)
