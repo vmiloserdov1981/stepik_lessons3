@@ -10,7 +10,7 @@ class TestProductPage:
                              ["offer0", "offer1", "offer2", "offer3", "offer4", "offer5", "offer6", "offer7", "offer8",
                               "offer9"])
     def test_guest_can_add_product_to_basket(self, browser, promo_offer):
-        link = "coders-at-work_207/?promo={promo_offer}"
+        link = f"coders-at-work_207/?promo={promo_offer}"
         page = ProductPage(browser, link)
         page.open()
         time.sleep(1)
@@ -75,7 +75,7 @@ class TestUserAddToBasketFromProductPage():
         page = ProductPage(browser, link)
         page.open()
         product = page.get_product_name_and_price()
-        page.add_to_basket()
+        page.add_to_basket_without_calc()
         page.should_be_added_to_basket(product.get('product_name'))
         page.should_be_product_price(product.get('product_price'))
 

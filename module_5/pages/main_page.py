@@ -7,4 +7,4 @@ class MainPage(BasePage):
 
     def __init__(self, browser):
         self.page_url = ""
-        super(self).__init__(browser, MainPage.site_url)
+        super().__init__(browser, MainPage.site_url)

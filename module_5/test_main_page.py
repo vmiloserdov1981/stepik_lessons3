@@ -50,13 +50,11 @@ class TestMainPage:
         # Подготовка
         product_page = ProductPage(browser, item_link)
         product_page.open()
-        product_page.add_to_basket()
 
         # Действия
         product_page.go_to_basket_page()
         basket_page = BasketPage(browser)
 
         # Проверка
-        basket_page.check_browser_url()
         basket_page.should_be_no_items_in_basket()
         basket_page.should_be_text_empty_basket()
