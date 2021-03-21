@@ -1,1 +1,404 @@
-{ }
+{
+  "921f2bd7f1d917f20893b7cc702e48d9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e1c304bca6bc70f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616337599263,
+        "stop" : 1616337602887,
+        "duration" : 3624
+      }
+    } ]
+  },
+  "14864204c6af13ad92397c5881274ddb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d98ea62243e9588d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616337638304,
+        "stop" : 1616337641680,
+        "duration" : 3376
+      }
+    } ]
+  },
+  "f839820fadcc5418eef5369a1303f3f4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "825337f95ebb04b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616337738085,
+        "stop" : 1616337749781,
+        "duration" : 11696
+      }
+    } ]
+  },
+  "a3402cd0193d118811489f9e4e49510a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4d7f6a343df6a18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616337578967,
+        "stop" : 1616337582364,
+        "duration" : 3397
+      }
+    } ]
+  },
+  "d82cef5e544e3ee82e5c0aed86f4b7d4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "26a1746912eca2a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616337609091,
+        "stop" : 1616337612740,
+        "duration" : 3649
+      }
+    } ]
+  },
+  "4207297b40eddb8cf30f4597605a2476" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3ac56be4e638d15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616337588501,
+        "stop" : 1616337592984,
+        "duration" : 4483
+      }
+    } ]
+  },
+  "9172ddc0d6b907a80ba7befefcba349e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "521ee1abb79a5a48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616337723236,
+        "stop" : 1616337726447,
+        "duration" : 3211
+      }
+    } ]
+  },
+  "00be33377795fb724b903c2887a23a71" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "96fd39511ac82ba4",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL invalid test case\n\nselenium.common.exceptions.NoAlertPresentException: Message: no such alert\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1616337686672,
+        "stop" : 1616337689877,
+        "duration" : 3205
+      }
+    } ]
+  },
+  "7bf3fbad3a4b8be6365e907e1b88d850" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "58fb72cd0558c2b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616337558767,
+        "stop" : 1616337562386,
+        "duration" : 3619
+      }
+    } ]
+  },
+  "ba6b4590dd2e82757be5a31d3190ef16" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "93446d79e3ef9f86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616337569248,
+        "stop" : 1616337572710,
+        "duration" : 3462
+      }
+    } ]
+  },
+  "fb7b85784b9543172a657c126c418389" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "643d475fa7202f5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616337647795,
+        "stop" : 1616337651127,
+        "duration" : 3332
+      }
+    } ]
+  },
+  "f05c655882ae6c419407270eda1f100b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ac70e99eceebf32a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616337696128,
+        "stop" : 1616337700607,
+        "duration" : 4479
+      }
+    } ]
+  },
+  "8ea3c92b99fcb2b75986a6ae54238c5a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "41c4c65ea91a88db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616337492562,
+        "stop" : 1616337506144,
+        "duration" : 13582
+      }
+    } ]
+  },
+  "7791d24ff79aa305ee95ecc9e5d47c89" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d14175e85be2b957",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616337665553,
+        "stop" : 1616337680496,
+        "duration" : 14943
+      }
+    } ]
+  },
+  "0db81c6d2d83e95f319e8ea8e0d30bbb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "19568cf517ac52ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616337619006,
+        "stop" : 1616337622393,
+        "duration" : 3387
+      }
+    } ]
+  },
+  "207f3e681c61281b70a910743494f82c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dfc7e5e13c5d4634",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL invalid test case\n\nselenium.common.exceptions.NoAlertPresentException: Message: no such alert\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1616337655306,
+        "stop" : 1616337659176,
+        "duration" : 3870
+      }
+    } ]
+  },
+  "cfa5e66f6fc7be1333458fd635095aa2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "de3f9b07859c4335",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616337483615,
+        "stop" : 1616337486401,
+        "duration" : 2786
+      }
+    } ]
+  },
+  "678e27d6baefbd97a051c8593caf1f4d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "91a48119984ce027",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616337474403,
+        "stop" : 1616337477364,
+        "duration" : 2961
+      }
+    } ]
+  },
+  "7cd4c4b5dfe775439caa482a83d5b4eb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d2208bb4e215d8c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616337706955,
+        "stop" : 1616337709645,
+        "duration" : 2690
+      }
+    } ]
+  },
+  "87c815e2ff57b386ed8170cc72071f13" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "33934a5f5bb5f988",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nAssertionError: The name of the product differs",
+      "time" : {
+        "start" : 1616337628574,
+        "stop" : 1616337632044,
+        "duration" : 3470
+      }
+    } ]
+  },
+  "7f07669a2a7e9e11a25b37170bc7b8c5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "48608e1b2f529f05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616337512292,
+        "stop" : 1616337525674,
+        "duration" : 13382
+      }
+    } ]
+  }
+}
