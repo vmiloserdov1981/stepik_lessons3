@@ -1,12 +1,12 @@
 {
-  "uid" : "d2208bb4e215d8c6",
-  "name" : "test_guest_can_go_to_login_page_from_product_page",
-  "fullName" : "test_product_page.TestProductPage#test_guest_can_go_to_login_page_from_product_page",
-  "historyId" : "7cd4c4b5dfe775439caa482a83d5b4eb",
+  "uid" : "7b21f42f5e0d4cbf",
+  "name" : "test_guest_can_add_product_to_basket[offer2]",
+  "fullName" : "test_product_page.TestProductPage#test_guest_can_add_product_to_basket",
+  "historyId" : "a3402cd0193d118811489f9e4e49510a",
   "time" : {
-    "start" : 1616337706955,
-    "stop" : 1616337709645,
-    "duration" : 2690
+    "start" : 1616337578967,
+    "stop" : 1616337582364,
+    "duration" : 3397
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "browser",
     "time" : {
-      "start" : 1616337703185,
-      "stop" : 1616337706954,
-      "duration" : 3769
+      "start" : 1616337575198,
+      "stop" : 1616337578966,
+      "duration" : 3768
     },
     "status" : "passed",
     "steps" : [ ],
@@ -24,31 +24,31 @@
     "parameters" : [ ],
     "stepsCount" : 0,
     "hasContent" : false,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "d649857d0ef95cf4",
+      "uid" : "993aa2ee8e4c129e",
       "name" : "stdout",
-      "source" : "d649857d0ef95cf4.txt",
+      "source" : "993aa2ee8e4c129e.txt",
       "type" : "text/plain",
-      "size" : 49
+      "size" : 75
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
     "hasContent" : true,
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
   },
   "afterStages" : [ {
     "name" : "browser::0",
     "time" : {
-      "start" : 1616337709646,
-      "stop" : 1616337712041,
-      "duration" : 2395
+      "start" : 1616337582366,
+      "stop" : 1616337584811,
+      "duration" : 2445
     },
     "status" : "passed",
     "steps" : [ ],
@@ -56,8 +56,8 @@
     "parameters" : [ ],
     "stepsCount" : 0,
     "hasContent" : false,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "labels" : [ {
     "name" : "suite",
@@ -84,7 +84,10 @@
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ ],
+  "parameters" : [ {
+    "name" : "promo_offer",
+    "value" : "'offer2'"
+  } ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -94,6 +97,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d2208bb4e215d8c6.json",
-  "parameterValues" : [ ]
+  "source" : "7b21f42f5e0d4cbf.json",
+  "parameterValues" : [ "'offer2'" ]
 }

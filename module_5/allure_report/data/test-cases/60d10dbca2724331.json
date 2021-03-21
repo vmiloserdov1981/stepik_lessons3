@@ -1,12 +1,12 @@
 {
-  "uid" : "643d475fa7202f5c",
-  "name" : "test_guest_can_add_product_to_basket[offer9]",
+  "uid" : "60d10dbca2724331",
+  "name" : "test_guest_can_add_product_to_basket[offer0]",
   "fullName" : "test_product_page.TestProductPage#test_guest_can_add_product_to_basket",
-  "historyId" : "fb7b85784b9543172a657c126c418389",
+  "historyId" : "7bf3fbad3a4b8be6365e907e1b88d850",
   "time" : {
-    "start" : 1616337647795,
-    "stop" : 1616337651127,
-    "duration" : 3332
+    "start" : 1616337558767,
+    "stop" : 1616337562386,
+    "duration" : 3619
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "browser",
     "time" : {
-      "start" : 1616337644112,
-      "stop" : 1616337647794,
-      "duration" : 3682
+      "start" : 1616337555041,
+      "stop" : 1616337558766,
+      "duration" : 3725
     },
     "status" : "passed",
     "steps" : [ ],
@@ -24,31 +24,31 @@
     "parameters" : [ ],
     "stepsCount" : 0,
     "hasContent" : false,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "8a09c18bbd9d6fc6",
+      "uid" : "8ade5dc0c530cf70",
       "name" : "stdout",
-      "source" : "8a09c18bbd9d6fc6.txt",
+      "source" : "8ade5dc0c530cf70.txt",
       "type" : "text/plain",
       "size" : 75
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
     "hasContent" : true,
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
   },
   "afterStages" : [ {
     "name" : "browser::0",
     "time" : {
-      "start" : 1616337651128,
-      "stop" : 1616337653610,
-      "duration" : 2482
+      "start" : 1616337562387,
+      "stop" : 1616337565422,
+      "duration" : 3035
     },
     "status" : "passed",
     "steps" : [ ],
@@ -56,8 +56,8 @@
     "parameters" : [ ],
     "stepsCount" : 0,
     "hasContent" : false,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "labels" : [ {
     "name" : "suite",
@@ -86,7 +86,7 @@
   } ],
   "parameters" : [ {
     "name" : "promo_offer",
-    "value" : "'offer9'"
+    "value" : "'offer0'"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -97,6 +97,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "643d475fa7202f5c.json",
-  "parameterValues" : [ "'offer9'" ]
+  "source" : "60d10dbca2724331.json",
+  "parameterValues" : [ "'offer0'" ]
 }

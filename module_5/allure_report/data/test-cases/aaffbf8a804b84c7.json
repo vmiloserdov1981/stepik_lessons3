@@ -1,12 +1,12 @@
 {
-  "uid" : "41c4c65ea91a88db",
-  "name" : "test_guest_cant_see_product_in_basket_opened_from_main_page",
-  "fullName" : "test_main_page.TestMainPage#test_guest_cant_see_product_in_basket_opened_from_main_page",
-  "historyId" : "8ea3c92b99fcb2b75986a6ae54238c5a",
+  "uid" : "aaffbf8a804b84c7",
+  "name" : "test_guest_can_go_to_login_page",
+  "fullName" : "test_main_page.TestLoginFromMainPage#test_guest_can_go_to_login_page",
+  "historyId" : "678e27d6baefbd97a051c8593caf1f4d",
   "time" : {
-    "start" : 1616337492562,
-    "stop" : 1616337506144,
-    "duration" : 13582
+    "start" : 1616337474403,
+    "stop" : 1616337477364,
+    "duration" : 2961
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "browser",
     "time" : {
-      "start" : 1616337488812,
-      "stop" : 1616337492562,
-      "duration" : 3750
+      "start" : 1616337470200,
+      "stop" : 1616337474399,
+      "duration" : 4199
     },
     "status" : "passed",
     "steps" : [ ],
@@ -24,31 +24,31 @@
     "parameters" : [ ],
     "stepsCount" : 0,
     "hasContent" : false,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "17697fcf7d04f533",
+      "uid" : "760ce869c414ab3e",
       "name" : "stdout",
-      "source" : "17697fcf7d04f533.txt",
+      "source" : "760ce869c414ab3e.txt",
       "type" : "text/plain",
       "size" : 49
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
     "hasContent" : true,
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
   },
   "afterStages" : [ {
     "name" : "browser::0",
     "time" : {
-      "start" : 1616337506145,
-      "stop" : 1616337508546,
-      "duration" : 2401
+      "start" : 1616337477364,
+      "stop" : 1616337479760,
+      "duration" : 2396
     },
     "status" : "passed",
     "steps" : [ ],
@@ -56,15 +56,18 @@
     "parameters" : [ ],
     "stepsCount" : 0,
     "hasContent" : false,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "labels" : [ {
+    "name" : "tag",
+    "value" : "login_guest"
+  }, {
     "name" : "suite",
     "value" : "test_main_page"
   }, {
     "name" : "subSuite",
-    "value" : "TestMainPage"
+    "value" : "TestLoginFromMainPage"
   }, {
     "name" : "host",
     "value" : "LAPTOP-7TTGKM9O"
@@ -92,8 +95,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ ]
+    "tags" : [ "login_guest" ]
   },
-  "source" : "41c4c65ea91a88db.json",
+  "source" : "aaffbf8a804b84c7.json",
   "parameterValues" : [ ]
 }

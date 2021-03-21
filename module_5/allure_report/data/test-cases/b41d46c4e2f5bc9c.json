@@ -1,5 +1,5 @@
 {
-  "uid" : "33934a5f5bb5f988",
+  "uid" : "b41d46c4e2f5bc9c",
   "name" : "test_guest_can_add_product_to_basket[offer7]",
   "fullName" : "test_product_page.TestProductPage#test_guest_can_add_product_to_basket",
   "historyId" : "87c815e2ff57b386ed8170cc72071f13",
@@ -26,8 +26,8 @@
     "parameters" : [ ],
     "stepsCount" : 0,
     "hasContent" : false,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "testStage" : {
     "status" : "skipped",
@@ -35,17 +35,17 @@
     "statusTrace" : "self = <test_product_page.TestProductPage object at 0x03E7DF30>\nbrowser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"c5e07f228950e5d363beba2d3e4e499b\")>\npromo_offer = 'offer7'\n\n    @pytest.mark.parametrize('promo_offer',\n                             [\"offer0\", \"offer1\", \"offer2\", \"offer3\", \"offer4\", \"offer5\", \"offer6\",\n                              pytest.param(\"offer7\", marks=pytest.mark.xfail), \"offer8\",\n                              \"offer9\"])\n    def test_guest_can_add_product_to_basket(self, browser, promo_offer):\n        # Данные\n        link = f\"coders-at-work_207/?promo={promo_offer}\"\n        page = ProductPage(browser, link)\n    \n        # Подготовка\n        page.open()\n        product = page.get_product_name_and_price()\n    \n        # Действия\n        page.add_to_basket()\n    \n        # Проверка\n>       page.should_be_added_to_basket(product.get('product_name'))\n\ntest_product_page.py:26: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <pages.product_page.ProductPage object at 0x03E88130>\nproduct_name = 'Coders at Work'\n\n    def should_be_added_to_basket(self, product_name):\n        assert product_name == self.browser.find_element(\n>           *ProductPageLocators.ADDED_PRODUCT_TEXT).text, \"The name of the product differs\"\nE       AssertionError: The name of the product differs\n\npages\\product_page.py:44: AssertionError",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "fdfa1eb142bb3efc",
+      "uid" : "a2a35483f0a7c567",
       "name" : "stdout",
-      "source" : "fdfa1eb142bb3efc.txt",
+      "source" : "a2a35483f0a7c567.txt",
       "type" : "text/plain",
       "size" : 75
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
     "hasContent" : true,
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : true
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
   },
   "afterStages" : [ {
     "name" : "browser::0",
@@ -60,8 +60,8 @@
     "parameters" : [ ],
     "stepsCount" : 0,
     "hasContent" : false,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "labels" : [ {
     "name" : "tag",
@@ -104,6 +104,6 @@
     "categories" : [ ],
     "tags" : [ "@pytest.mark.xfail" ]
   },
-  "source" : "33934a5f5bb5f988.json",
+  "source" : "b41d46c4e2f5bc9c.json",
   "parameterValues" : [ "'offer7'" ]
 }

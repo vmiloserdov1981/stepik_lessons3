@@ -1,22 +1,22 @@
 {
-  "uid" : "d98ea62243e9588d",
-  "name" : "test_guest_can_add_product_to_basket[offer8]",
-  "fullName" : "test_product_page.TestProductPage#test_guest_can_add_product_to_basket",
-  "historyId" : "14864204c6af13ad92397c5881274ddb",
+  "uid" : "15173195f8fdf5e7",
+  "name" : "test_user_cant_see_success_message",
+  "fullName" : "test_product_page.TestUserAddToBasketFromProductPage#test_user_cant_see_success_message",
+  "historyId" : "f839820fadcc5418eef5369a1303f3f4",
   "time" : {
-    "start" : 1616337638304,
-    "stop" : 1616337641680,
-    "duration" : 3376
+    "start" : 1616337738085,
+    "stop" : 1616337749781,
+    "duration" : 11696
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "browser",
+    "name" : "setup",
     "time" : {
-      "start" : 1616337634634,
-      "stop" : 1616337638303,
-      "duration" : 3669
+      "start" : 1616337730730,
+      "stop" : 1616337738084,
+      "duration" : 7354
     },
     "status" : "passed",
     "steps" : [ ],
@@ -24,31 +24,46 @@
     "parameters" : [ ],
     "stepsCount" : 0,
     "hasContent" : false,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1616337729048,
+      "stop" : 1616337730729,
+      "duration" : 1681
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "2fb8c507f8d9e698",
+      "uid" : "7e5b757fcf1100cf",
       "name" : "stdout",
-      "source" : "2fb8c507f8d9e698.txt",
+      "source" : "7e5b757fcf1100cf.txt",
       "type" : "text/plain",
-      "size" : 75
+      "size" : 49
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
     "hasContent" : true,
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
   },
   "afterStages" : [ {
     "name" : "browser::0",
     "time" : {
-      "start" : 1616337641681,
-      "stop" : 1616337644108,
-      "duration" : 2427
+      "start" : 1616337749786,
+      "stop" : 1616337752199,
+      "duration" : 2413
     },
     "status" : "passed",
     "steps" : [ ],
@@ -56,15 +71,18 @@
     "parameters" : [ ],
     "stepsCount" : 0,
     "hasContent" : false,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "labels" : [ {
+    "name" : "tag",
+    "value" : "user_basket"
+  }, {
     "name" : "suite",
     "value" : "test_product_page"
   }, {
     "name" : "subSuite",
-    "value" : "TestProductPage"
+    "value" : "TestUserAddToBasketFromProductPage"
   }, {
     "name" : "host",
     "value" : "LAPTOP-7TTGKM9O"
@@ -84,10 +102,7 @@
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ {
-    "name" : "promo_offer",
-    "value" : "'offer8'"
-  } ],
+  "parameters" : [ ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -95,8 +110,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ ]
+    "tags" : [ "user_basket" ]
   },
-  "source" : "d98ea62243e9588d.json",
-  "parameterValues" : [ "'offer8'" ]
+  "source" : "15173195f8fdf5e7.json",
+  "parameterValues" : [ ]
 }
