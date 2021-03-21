@@ -7,7 +7,7 @@
       "name" : "TestLoginFromMainPage",
       "children" : [ {
         "name" : "test_guest_can_go_to_login_page",
-        "uid" : "aaffbf8a804b84c7",
+        "uid" : "8b35ae6c67ef8d6",
         "parentUid" : "2025c362a44f9f6948bf9d24f2c84f66",
         "status" : "passed",
         "time" : {
@@ -20,7 +20,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_guest_should_see_login_link",
-        "uid" : "dcb8280af0056fa1",
+        "uid" : "9410028e94118b20",
         "parentUid" : "2025c362a44f9f6948bf9d24f2c84f66",
         "status" : "passed",
         "time" : {
@@ -37,7 +37,7 @@
       "name" : "TestMainPage",
       "children" : [ {
         "name" : "test_guest_cant_see_product_in_basket_opened_from_main_page",
-        "uid" : "5165add0ae60d89a",
+        "uid" : "de5cd0162b8982c8",
         "parentUid" : "72c35de7480191703646715c8e369410",
         "status" : "passed",
         "time" : {
@@ -50,7 +50,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_guest_cant_see_product_in_basket_opened_from_product_page",
-        "uid" : "f3f2378feab29cda",
+        "uid" : "beae19167cda364f",
         "parentUid" : "72c35de7480191703646715c8e369410",
         "status" : "passed",
         "time" : {
@@ -71,7 +71,7 @@
       "name" : "TestProductPage",
       "children" : [ {
         "name" : "test_guest_can_add_product_to_basket[offer0]",
-        "uid" : "60d10dbca2724331",
+        "uid" : "8a26faa736c78292",
         "parentUid" : "d203acf98958226f9b8ac205fc69e370",
         "status" : "passed",
         "time" : {
@@ -84,7 +84,7 @@
         "parameters" : [ "'offer0'" ]
       }, {
         "name" : "test_guest_can_add_product_to_basket[offer1]",
-        "uid" : "b470167a09056390",
+        "uid" : "24d8e485bed55ebb",
         "parentUid" : "d203acf98958226f9b8ac205fc69e370",
         "status" : "passed",
         "time" : {
@@ -97,7 +97,7 @@
         "parameters" : [ "'offer1'" ]
       }, {
         "name" : "test_guest_can_add_product_to_basket[offer2]",
-        "uid" : "7b21f42f5e0d4cbf",
+        "uid" : "235d8ce53d12303d",
         "parentUid" : "d203acf98958226f9b8ac205fc69e370",
         "status" : "passed",
         "time" : {
@@ -110,7 +110,7 @@
         "parameters" : [ "'offer2'" ]
       }, {
         "name" : "test_guest_can_add_product_to_basket[offer3]",
-        "uid" : "4afd88474178f5fe",
+        "uid" : "5f3c4542bfa7b215",
         "parentUid" : "d203acf98958226f9b8ac205fc69e370",
         "status" : "passed",
         "time" : {
@@ -123,7 +123,7 @@
         "parameters" : [ "'offer3'" ]
       }, {
         "name" : "test_guest_can_add_product_to_basket[offer4]",
-        "uid" : "b09820e4e82c6480",
+        "uid" : "fb417137224898f",
         "parentUid" : "d203acf98958226f9b8ac205fc69e370",
         "status" : "passed",
         "time" : {
@@ -136,7 +136,7 @@
         "parameters" : [ "'offer4'" ]
       }, {
         "name" : "test_guest_can_add_product_to_basket[offer5]",
-        "uid" : "72e1d9df604b916",
+        "uid" : "d0bb9679503ebdb7",
         "parentUid" : "d203acf98958226f9b8ac205fc69e370",
         "status" : "passed",
         "time" : {
@@ -149,7 +149,7 @@
         "parameters" : [ "'offer5'" ]
       }, {
         "name" : "test_guest_can_add_product_to_basket[offer6]",
-        "uid" : "ccca2fef2e61ab4c",
+        "uid" : "826b0ba32ecf58f",
         "parentUid" : "d203acf98958226f9b8ac205fc69e370",
         "status" : "passed",
         "time" : {
@@ -162,7 +162,7 @@
         "parameters" : [ "'offer6'" ]
       }, {
         "name" : "test_guest_can_add_product_to_basket[offer7]",
-        "uid" : "b41d46c4e2f5bc9c",
+        "uid" : "cab9d9cab57798a4",
         "parentUid" : "d203acf98958226f9b8ac205fc69e370",
         "status" : "skipped",
         "time" : {
@@ -175,7 +175,7 @@
         "parameters" : [ "'offer7'" ]
       }, {
         "name" : "test_guest_can_add_product_to_basket[offer8]",
-        "uid" : "4b3db9d7909180",
+        "uid" : "6380bdade70f255d",
         "parentUid" : "d203acf98958226f9b8ac205fc69e370",
         "status" : "passed",
         "time" : {
@@ -188,7 +188,7 @@
         "parameters" : [ "'offer8'" ]
       }, {
         "name" : "test_guest_can_add_product_to_basket[offer9]",
-        "uid" : "18821a607e567864",
+        "uid" : "515b21ed664d8aa",
         "parentUid" : "d203acf98958226f9b8ac205fc69e370",
         "status" : "passed",
         "time" : {
@@ -201,7 +201,7 @@
         "parameters" : [ "'offer9'" ]
       }, {
         "name" : "test_guest_cant_see_success_message_after_adding_product_to_basket",
-        "uid" : "ab0b1e8252435a9e",
+        "uid" : "ac9ffde8f9c17343",
         "parentUid" : "d203acf98958226f9b8ac205fc69e370",
         "status" : "skipped",
         "time" : {
@@ -214,7 +214,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_guest_cant_see_success_message",
-        "uid" : "afb5d366f3649ce4",
+        "uid" : "bafaee157cd5ce83",
         "parentUid" : "d203acf98958226f9b8ac205fc69e370",
         "status" : "passed",
         "time" : {
@@ -227,7 +227,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_message_disappeared_after_adding_product_to_basket",
-        "uid" : "51080cd4ea5bb18e",
+        "uid" : "befe04acd75ccac0",
         "parentUid" : "d203acf98958226f9b8ac205fc69e370",
         "status" : "skipped",
         "time" : {
@@ -240,7 +240,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_guest_should_see_login_link_on_product_page",
-        "uid" : "58dd5a17e0cf424c",
+        "uid" : "9a6ec2e841ebf49f",
         "parentUid" : "d203acf98958226f9b8ac205fc69e370",
         "status" : "passed",
         "time" : {
@@ -253,7 +253,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_guest_can_go_to_login_page_from_product_page",
-        "uid" : "16c3a9f634cb3d1a",
+        "uid" : "80a95e3820c5a95",
         "parentUid" : "d203acf98958226f9b8ac205fc69e370",
         "status" : "passed",
         "time" : {
@@ -270,7 +270,7 @@
       "name" : "TestUserAddToBasketFromProductPage",
       "children" : [ {
         "name" : "test_user_can_add_product_to_basket",
-        "uid" : "63ec1231c0f2bbd3",
+        "uid" : "9f0c8a7866fd5baf",
         "parentUid" : "05777e6ad26eb32b637602f0fa6be645",
         "status" : "passed",
         "time" : {
@@ -283,7 +283,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_user_cant_see_success_message",
-        "uid" : "15173195f8fdf5e7",
+        "uid" : "b4e6ee5667a5713c",
         "parentUid" : "05777e6ad26eb32b637602f0fa6be645",
         "status" : "passed",
         "time" : {
