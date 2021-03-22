@@ -50,6 +50,10 @@ class BasePage():
         assert product_price == self.browser.find_element(
             *ProductPageLocators.PRODUCT_PRICE_TEXT_SEARCH).text, "The price in the basket differs"
 
+    def result_invalid_search_request(self):
+        assert self.is_element_present(
+            *MainPageLocators.INVALID_SEARCH_QUERY_TEXT), "An incorrect message is displayed to the fake user"
+
     def write_in_search_bar_from_main_page(self, name_existing_product):
         self.browser.find_element(*MainPageLocators.SEARCH_LINE).send_keys(name_existing_product)
         self.browser.find_element(*MainPageLocators.FIND_BTN).click()

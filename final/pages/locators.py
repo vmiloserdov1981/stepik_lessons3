@@ -12,6 +12,7 @@ class MainPageLocators():
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
     SEARCH_LINE = (By.CSS_SELECTOR, "#id_q")
     FIND_BTN = (By.CSS_SELECTOR, "input.btn.btn-default")
+    INVALID_SEARCH_QUERY_TEXT = (By.CSS_SELECTOR, "div.container-fluid.page p")
 
 class LoginPageLocators():
     login_url = "http://selenium1py.pythonanywhere.com/en-gb/accounts/login/"

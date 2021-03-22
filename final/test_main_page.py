@@ -93,3 +93,15 @@ class TestMainPage:
         mainPage.should_be_added_to_basket_search_results(product.get('product_name'))
         mainPage.should_be_product_price_search_results(product.get('product_price'))
 
+    # personal_tests
+    def test_guest_cant_search_non_existent_product_from_main_page(self, browser):
+        # Данные
+        name_non_existent_product = "№%№%№"
+        mainPage = MainPage(browser)
+        mainPage.open()
+
+        # Действие
+        mainPage.write_in_search_bar_from_main_page(name_non_existent_product)
+
+        # Проверка
+        mainPage.result_invalid_search_request()
