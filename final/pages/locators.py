@@ -6,7 +6,7 @@ class BasePageLocators():
     LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
     GO_TO_BASKET_BTN = (By.CSS_SELECTOR, ".btn-group>a[href*='basket']")
     USER_ICON = (By.CSS_SELECTOR, ".icon-user")
-
+    OSCAR_LINK = (By.CSS_SELECTOR, "#default > header > div.page_inner > div > div.col-sm-7.h1 > a")
 
 class MainPageLocators():
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
@@ -38,6 +38,8 @@ class ProductPageLocators():
     INFO_MESSAGE = (By.XPATH, "//div[contains(@class, 'alert-info')] //p[not(.//a)]")
     PRODUCT_NAME_TEXT_SEARCH = (By.CSS_SELECTOR, "#default > div.container-fluid.page > div > div > div > section > div > ol > li > article > h3 > a")
     PRODUCT_PRICE_TEXT_SEARCH = (By.CSS_SELECTOR, "p.price_color")
+    ADD_TO_FAVORITES = (By.CSS_SELECTOR, "button.btn.btn-lg:nth-child(2)")
+    TEXT_SUCCESSFUL_ADD_TO_FAVORITES = (By.CSS_SELECTOR, "div.alert.alert-success")
 
 
 class BasketPageLocators():

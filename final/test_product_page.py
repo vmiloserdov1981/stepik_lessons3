@@ -1,3 +1,4 @@
+from .pages.main_page import MainPage
 import time
 import pytest
 from .pages.login_page import LoginPage
@@ -91,6 +92,20 @@ class TestProductPage:
         login_page = LoginPage(browser)
         login_page.should_be_login_page()
 
+    # personal_tests
+    def test_guest_can_return_to_main_page_from_product_page(self, browser):
+        # Данные
+        link = "coders-at-work_207/"
+        page = ProductPage(browser, link)
+
+        # Действие
+        page.open()
+        page.go_to_main_page()
+
+        # Проверка
+        mainPage = MainPage(browser)
+        mainPage.should_be_main_page()
+
 
 @pytest.mark.user_basket
 class TestUserAddToBasketFromProductPage():
@@ -137,3 +152,18 @@ class TestUserAddToBasketFromProductPage():
 
         # Проверка
         page.should_not_be_success_message()
+
+    # personal_tests
+    def test_user_can_add_product_to_favorites(self, browser):
+        # Данные
+        link = "coders-at-work_207/"
+        page = ProductPage(browser, link)
+
+        # Подготовка
+        page.open()
+
+        # Действия
+        page.add_product_to_favorites()
+
+        # Проверка
+        page.should_be_product_successfully_add_to_favorites()

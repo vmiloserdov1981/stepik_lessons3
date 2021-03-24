@@ -34,6 +34,10 @@ class BasePage():
         link = self.browser.find_element(*BasePageLocators.LOGIN_LINK)
         link.click()
 
+    def go_to_main_page(self):
+        link = self.browser.find_element(*BasePageLocators.OSCAR_LINK)
+        link.click()
+
     def get_product_name_and_price_search_results(self):
         product = {}
         product_name = self.browser.find_element(*ProductPageLocators.PRODUCT_NAME_TEXT_SEARCH).text
@@ -116,3 +120,11 @@ class BasePage():
             alert.accept()
         except NoAlertPresentException:
             print("No second alert presented")
+
+    def should_be_main_page(self):
+        self.should_be_main_url()
+
+
+    def should_be_main_url(self):
+        # реализуйте проверку на корректный url адрес
+        assert self.site_url in self.browser.current_url
