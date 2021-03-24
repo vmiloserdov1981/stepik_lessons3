@@ -29,7 +29,7 @@ class TestLoginFromMainPage():
         page.open()
         page.should_be_login_link()
 
-    # personal_tests
+    @pytest.mark.personal_tests
     def test_unregistered_guest_cannot_login(self, browser):
         # Данные
         false_email = "dfdfdgdgd@yandex.ru"
@@ -78,7 +78,7 @@ class TestMainPage:
         basket_page.should_be_no_items_in_basket()
         basket_page.should_be_text_empty_basket()
 
-    # personal_tests
+    @pytest.mark.personal_tests
     def test_guest_can_search_existing_product_from_main_page(self, browser):
         # Данные
         name_existing_product = "Hacker's Delight"
@@ -93,7 +93,7 @@ class TestMainPage:
         mainPage.should_be_added_to_basket_search_results(product.get('product_name'))
         mainPage.should_be_product_price_search_results(product.get('product_price'))
 
-    # personal_tests
+    @pytest.mark.personal_tests
     def test_guest_cant_search_non_existent_product_from_main_page(self, browser):
         # Данные
         name_non_existent_product = "№%№%№"

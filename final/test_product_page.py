@@ -92,7 +92,7 @@ class TestProductPage:
         login_page = LoginPage(browser)
         login_page.should_be_login_page()
 
-    # personal_tests
+    @pytest.mark.personal_tests
     def test_guest_can_return_to_main_page_from_product_page(self, browser):
         # Данные
         link = "coders-at-work_207/"
@@ -153,7 +153,7 @@ class TestUserAddToBasketFromProductPage():
         # Проверка
         page.should_not_be_success_message()
 
-    # personal_tests
+    @pytest.mark.personal_tests
     def test_user_can_add_product_to_favorites(self, browser):
         # Данные
         link = "coders-at-work_207/"
